@@ -4,10 +4,16 @@ const NavBar = () => {
         <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-light border-bottom shadow-sm">
             <div className="container">
                 <nav className="my-2 my-md-0 mr-md-3">
-                   
-                    <h1 className="text-primary ">  <img src={logo} alt="DevSuperior" width="80"className="m-3" /> 
-                    BANCO VERDE <br /></h1>
+
+                    <h2 className="text-primary p-2">
+                        <img src={logo}
+                            height="50"
+                            className=" d-inline-block "
+                            alt="Banco Verde"
+                        />
+                        <p className="d-inline-block">BANCO VERDE </p></h2>
                 </nav>
+                
             </div>
         </div>
     );

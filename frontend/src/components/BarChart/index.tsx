@@ -13,12 +13,12 @@ const options = {
     
 const mockData = {
         labels: {
-            categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+            categories: ['Amazonia Azul', 'Moeda Verde', 'Souza Cruz', 'Embrasca', 'Sultão Agro Sustentável','Portos Sustentáveis','Amazon','Jhon Jhon','Mineração Sustentável','Multi Ambiental']
         },
         series: [
             {
-                name: "% Sucesso",
-                data: [43.6, 67.1, 67.7, 45.6, 71.1]                   
+                name: " Projetos",
+                data: [15, 49, 21, 16, 55,40,31,61,25,71]                   
             }
         ]
     };
