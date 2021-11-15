@@ -7,7 +7,7 @@ import NavBar from "components/navbar";
 const Dashboard = () => {
     return (
         <>
-
+            
             <NavBar />
             <div className="container">
                 <h1 className="text-primary">Projetos de Crédito de Carbono</h1>
@@ -26,9 +26,10 @@ const Dashboard = () => {
 
                 <h5 className="text-secondary "> Portos Sustentáveis </h5>
                 <DataTable />
+                
 
-               
-                <p></p>
+
+
             </div>
             <Footer />
         </>
