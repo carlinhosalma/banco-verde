@@ -3,7 +3,6 @@ import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/footer";
 import NavBar from "components/navbar";
-import TableEnergia from "components/TableEnergias";
 
 const Dashboard = () => {
     return (
@@ -28,8 +27,7 @@ const Dashboard = () => {
                 <h5 className="text-secondary "> Portos Sustentáveis </h5>
                 <DataTable />
 
-                <h5 className="text-secondary "> Energias </h5>
-                <TableEnergia />
+               
                 <p></p>
             </div>
             <Footer />
